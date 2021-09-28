@@ -130,22 +130,22 @@ public class HomePage extends AppCompatActivity {
             }
         });
 
-        r1.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-
-                x = event.getX();
-                y = event.getY();
-
-                if(event.getAction()== MotionEvent.ACTION_MOVE) {
-                    tv1.setX(x);
-                    tv1.setY(y);
-                }
-                //Toast.makeText(RateUsPage.this,"Enter your full name (OnFocusListener)",Toast.LENGTH_SHORT).show();
-
-                return true;
-            }
-        });
+//        r1.setOnTouchListener(new View.OnTouchListener() {
+//            @Override
+//            public boolean onTouch(View v, MotionEvent event) {
+//
+//                x = event.getX();
+//                y = event.getY();
+//
+//                if(event.getAction()== MotionEvent.ACTION_MOVE) {
+//                    tv1.setX(x);
+//                    tv1.setY(y);
+//                }
+//                //Toast.makeText(RateUsPage.this,"Enter your full name (OnFocusListener)",Toast.LENGTH_SHORT).show();
+//
+//                return true;
+//            }
+//        });
 
     }
 

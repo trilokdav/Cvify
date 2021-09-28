@@ -88,8 +88,8 @@ public class RateUsPage extends AppCompatActivity {
                 String Email = et2.getText().toString().trim();
                 String emailSubject = "Resume Builder";
                 String emailBody = "Dear "+et1.getText().toString().trim()+",\n\n"+"             Thank you for using our app 'Resume Builder' and giving us your valuable feedback! Hope you enjoyed using our app and it was helpful for you to build your resume & prepare for your interviews!!\n\nGood Luck for your future endeavours:)\n\n\nRegards,\nTeam Resume Builder";
-                SendMail sm = new SendMail(RateUsPage.this,Email,emailSubject,emailBody);
-                sm.execute();
+
+
 
                 /*Cursor c1=db.rawQuery("SELECT * FROM UserReview", null);
                 if(c1.getCount()==0)

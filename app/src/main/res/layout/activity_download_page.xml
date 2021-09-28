@@ -25,9 +25,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="85dp"
         android:layout_marginLeft="10dp"
-        android:text="Yash_Resume_RB.pdf"
+        android:layout_marginTop="85dp"
+        android:text="trilok.pdf"
         android:textColor="#f4dc42"
         android:textSize="18sp" />
 
@@ -37,9 +37,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="110dp"
         android:layout_marginLeft="10dp"
-        android:text="Ruchak Vira_Resume_RB.pdf"
+        android:layout_marginTop="110dp"
+        android:text="madhav.pdf"
         android:textColor="#f4dc42"
         android:textSize="18sp" />
 
