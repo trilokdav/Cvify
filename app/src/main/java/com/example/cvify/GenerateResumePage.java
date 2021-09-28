@@ -192,7 +192,7 @@ public class GenerateResumePage extends AppCompatActivity {
                     +"\n\n----- ACHIEVEMENTS -----\nAchievements : "+strachi+"\nAwards : "+strawards
                     + "\n\n----- REFERENCE -----\nName/Designation : "+strrefName+"\nOrganization Name : "+strrefOrg+"\nContact No. : "+strrefCont
                     + "\n\n\n*********************************************************************************************************";
-            document.addAuthor("Palak Savlia");
+            document.addAuthor("cvify");
             document.add(new Paragraph(text));
             document.close();
             Toast.makeText(this,"Saved pdf at "+filePath,Toast.LENGTH_LONG).show();
