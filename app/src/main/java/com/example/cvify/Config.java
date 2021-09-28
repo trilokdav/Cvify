@@ -1,4 +1,4 @@
-package com.example.palak.resumebuilder;
+package com.example.cvify;
 
 public class Config {
     public static final String EMAIL ="palaksavalia@gmail.com";
