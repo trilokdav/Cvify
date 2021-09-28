@@ -1,4 +1,4 @@
-package com.example.palak.resumebuilder;
+package com.example.cvify.cvify;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -12,8 +12,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -23,8 +21,6 @@ import com.itextpdf.text.pdf.PdfWriter;
 
 import java.io.File;
 import java.io.FileOutputStream;
-import java.text.SimpleDateFormat;
-import java.util.Locale;
 
 public class GenerateResumePage extends AppCompatActivity {
 

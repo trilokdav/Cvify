@@ -1,4 +1,4 @@
-package com.example.palak.resumebuilder;
+package com.example.cvify.cvify;
 
 import android.app.ProgressDialog;
 import android.content.Context;

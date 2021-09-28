@@ -1,15 +1,18 @@
-package com.example.palak.resumebuilder;
+package com.example.cvify.cvify;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class DownloadPage extends AppCompatActivity {
+public class SharePage extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_download_page);
+        setContentView(R.layout.activity_share_page);
         Intent intent = getIntent();
+
+
     }
 }

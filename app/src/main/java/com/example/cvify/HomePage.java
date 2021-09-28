@@ -1,4 +1,4 @@
-package com.example.palak.resumebuilder;
+package com.example.cvify.cvify;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -9,7 +9,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
-import android.widget.TableLayout;
 import android.widget.TextView;
 
 public class HomePage extends AppCompatActivity {

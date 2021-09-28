@@ -1,4 +1,4 @@
-package com.example.palak.resumebuilder;
+package com.example.cvify.cvify;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
