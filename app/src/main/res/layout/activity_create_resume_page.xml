@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@drawable/gradient"
     android:orientation="vertical"
     tools:context=".CreateResumePage">
 
@@ -20,8 +21,7 @@
             android:layout_marginTop="20dp"
             android:layout_weight="1"
             android:background="@drawable/btn_bg"
-            android:backgroundTint="#1567f7"
-
+            android:backgroundTint="#99BEBEBE"
             android:padding="5dp"
             android:text="Personal Info"
             android:textColor="@android:color/white" />
@@ -35,7 +35,7 @@
             android:layout_marginTop="20dp"
             android:layout_weight="1"
             android:background="@drawable/btn_bg"
-            android:backgroundTint="#1567f7"
+            android:backgroundTint="#99BEBEBE"
             android:padding="5dp"
             android:textColor="@android:color/white"
             android:text="Education" />
@@ -57,7 +57,7 @@
             android:layout_marginTop="20dp"
             android:layout_weight="1"
             android:background="@drawable/btn_bg"
-            android:backgroundTint="#1567f7"
+            android:backgroundTint="#99BEBEBE"
             android:padding="5dp"
             android:text="Technical Skills"
             android:textColor="@android:color/white" />
@@ -71,7 +71,7 @@
             android:layout_marginTop="20dp"
             android:layout_weight="1"
             android:background="@drawable/btn_bg"
-            android:backgroundTint="#1567f7"
+            android:backgroundTint="#99BEBEBE"
             android:padding="5dp"
             android:textColor="@android:color/white"
             android:text="Interests" />
@@ -91,7 +91,7 @@
             android:layout_marginTop="20dp"
             android:layout_weight="1"
             android:background="@drawable/btn_bg"
-            android:backgroundTint="#1567f7"
+            android:backgroundTint="#99BEBEBE"
             android:padding="5dp"
             android:text="Projects"
             android:textColor="@android:color/white" />
@@ -105,7 +105,7 @@
             android:layout_marginTop="20dp"
             android:layout_weight="1"
             android:background="@drawable/btn_bg"
-            android:backgroundTint="#1567f7"
+            android:backgroundTint="#99BEBEBE"
             android:padding="5dp"
             android:textColor="@android:color/white"
             android:text="Achievements" />
@@ -125,7 +125,7 @@
             android:layout_marginTop="20dp"
             android:layout_weight="1"
             android:background="@drawable/btn_bg"
-            android:backgroundTint="#1567f7"
+            android:backgroundTint="#99BEBEBE"
             android:padding="5dp"
             android:text="Objective"
             android:textColor="@android:color/white" />
@@ -139,7 +139,7 @@
             android:layout_marginTop="20dp"
             android:layout_weight="1"
             android:background="@drawable/btn_bg"
-            android:backgroundTint="#1567f7"
+            android:backgroundTint="#99BEBEBE"
             android:padding="5dp"
             android:textColor="@android:color/white"
             android:text="Reference" />
@@ -148,22 +148,22 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="400dp"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/b9"
-            android:layout_width="0dp"
-            android:layout_height="65dp"
+            android:layout_width="343dp"
+            android:layout_height="60dp"
             android:layout_marginLeft="35dp"
-            android:layout_marginRight="35dp"
             android:layout_marginTop="100dp"
+            android:layout_marginRight="35dp"
             android:layout_weight="1"
             android:background="@drawable/btn_bg"
             android:backgroundTint="#ffffff"
             android:padding="5dp"
             android:text="GENERATE RESUME"
-            android:textColor="@android:color/black"
+            android:textColor="#DF8142AE"
             android:textSize="22sp" />
 
 

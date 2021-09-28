@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Achievements"
@@ -69,11 +70,14 @@
         android:layout_marginTop="45dp"
         android:layout_gravity="center"
         android:background="@drawable/btn_bg"
-        android:backgroundTint="#1567f7"
         android:padding="7dp"
         android:text="SAVE"
+        android:backgroundTint="#99BEBEBE"
         android:textAlignment="center"
         android:textColor="@android:color/white"
-        android:textSize="22sp" />
+        android:textSize="22sp"
+
+        />
+
 
 </LinearLayout>

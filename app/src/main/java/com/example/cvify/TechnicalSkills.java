@@ -33,7 +33,7 @@ public class TechnicalSkills extends AppCompatActivity {
 
                 tv3 = (TextView) findViewById(R.id.tv3);
                 techSkills = techSkills + "Programming Languages, ";
-                Toast.makeText(TechnicalSkills.this,"Selected skill added succesfully!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(TechnicalSkills.this,"Selected skill added successfully!",Toast.LENGTH_SHORT).show();
                 count++;
                 insertSkills();
             }
@@ -46,7 +46,7 @@ public class TechnicalSkills extends AppCompatActivity {
 
                 tv4 = (TextView) findViewById(R.id.tv4);
                 techSkills = techSkills + "Software Proficiency, ";
-                Toast.makeText(TechnicalSkills.this,"Selected skill added succesfully!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(TechnicalSkills.this,"Selected skill added successfully!",Toast.LENGTH_SHORT).show();
                 count++;
                 insertSkills();
             }
@@ -59,7 +59,7 @@ public class TechnicalSkills extends AppCompatActivity {
 
                 tv5 = (TextView) findViewById(R.id.tv5);
                 techSkills = techSkills + "Common OS, ";
-                Toast.makeText(TechnicalSkills.this,"Selected skill added succesfully!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(TechnicalSkills.this,"Selected skill added successfully!",Toast.LENGTH_SHORT).show();
                 count++;
                 insertSkills();
             }
@@ -72,7 +72,7 @@ public class TechnicalSkills extends AppCompatActivity {
 
                 tv6 = (TextView) findViewById(R.id.tv6);
                 techSkills = techSkills + "Data Analysis, ";
-                Toast.makeText(TechnicalSkills.this,"Selected skill added succesfully!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(TechnicalSkills.this,"Selected skill added successfully!",Toast.LENGTH_SHORT).show();
                 count++;
                 insertSkills();
             }
@@ -85,7 +85,7 @@ public class TechnicalSkills extends AppCompatActivity {
 
                 tv7 = (TextView) findViewById(R.id.tv7);
                 techSkills = techSkills + "Analytical Skills, ";
-                Toast.makeText(TechnicalSkills.this,"Selected skill added succesfully!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(TechnicalSkills.this,"Selected skill added successfully!",Toast.LENGTH_SHORT).show();
                 count++;
                 insertSkills();
             }
@@ -98,7 +98,7 @@ public class TechnicalSkills extends AppCompatActivity {
 
                 tv8 = (TextView) findViewById(R.id.tv8);
                 techSkills = techSkills + "Project Management, ";
-                Toast.makeText(TechnicalSkills.this,"Selected skill added succesfully!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(TechnicalSkills.this,"Selected skill added successfully!",Toast.LENGTH_SHORT).show();
                 count++;
                 insertSkills();
 
@@ -112,7 +112,7 @@ public class TechnicalSkills extends AppCompatActivity {
 
                 tv9 = (TextView) findViewById(R.id.tv9);
                 techSkills = techSkills + "Technical Writing, ";
-                Toast.makeText(TechnicalSkills.this,"Selected skill added succesfully!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(TechnicalSkills.this,"Selected skill added successfully!",Toast.LENGTH_SHORT).show();
                 count++;
                 insertSkills();
             }
@@ -125,7 +125,7 @@ public class TechnicalSkills extends AppCompatActivity {
 
                 tv10 = (TextView) findViewById(R.id.tv10);
                 techSkills = techSkills + "Social Media Experience, ";
-                Toast.makeText(TechnicalSkills.this,"Selected skill added succesfully!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(TechnicalSkills.this,"Selected skill added successfully!",Toast.LENGTH_SHORT).show();
                 count++;
                 insertSkills();
             }
@@ -143,15 +143,15 @@ public class TechnicalSkills extends AppCompatActivity {
             }
             else
             {
-                Toast.makeText(TechnicalSkills.this, "You can add only 4 skills! Please try again incase you want to change your skill set!", Toast.LENGTH_LONG).show();
+                Toast.makeText(TechnicalSkills.this, "You can add only 4 skills! Please try again in case you want to change your skill set!", Toast.LENGTH_LONG).show();
             }
         }
         else {
-            Toast.makeText(TechnicalSkills.this, "Selected skill added succesfully!", Toast.LENGTH_LONG).show();
+            Toast.makeText(TechnicalSkills.this, "Selected skill added successfully!", Toast.LENGTH_LONG).show();
         }
 
         if(count > 4) {
-            Toast.makeText(TechnicalSkills.this, "You can add only 4 skills! Please try again incase you want to change your skill set!", Toast.LENGTH_LONG).show();
+            Toast.makeText(TechnicalSkills.this, "You can add only 4 skills! Please try again in case you want to change your skill set!", Toast.LENGTH_LONG).show();
         }
 
     }
