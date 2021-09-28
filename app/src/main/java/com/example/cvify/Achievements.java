@@ -40,7 +40,7 @@ public class Achievements extends AppCompatActivity {
                 Cursor c=db.rawQuery("SELECT * FROM PersonalDet7 WHERE Name ='"+ PersonalInfo.Username.getText().toString() +"'", null);
                 if(c.moveToFirst()) {
                     db.execSQL("UPDATE PersonalDet7 SET Achievement ='"+ achievements.getText()+"', Award='"+ awards.getText()+"' WHERE Name ='"+PersonalInfo.Username.getText().toString()+"'");
-                    Toast.makeText(Achievements.this, "Data saved sucessfully!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(Achievements.this, "Data saved successfully!", Toast.LENGTH_LONG).show();
                 }
                 else
                 {

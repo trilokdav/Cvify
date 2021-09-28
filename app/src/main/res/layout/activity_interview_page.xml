@@ -102,7 +102,7 @@
         android:layout_marginLeft="40dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/btn_bg"
-        android:backgroundTint="#1567f7"
+        android:backgroundTint="#99BEBEBE"
         android:padding="5dp"
         android:textColor="@android:color/white"
         android:text="Was It Helpful? Give Us Your FeedBack Now.."

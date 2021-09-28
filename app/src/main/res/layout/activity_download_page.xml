@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/gradient"
     android:layout_height="match_parent"
     tools:context=".DownloadPage">
 
@@ -25,9 +26,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="85dp"
+        android:layout_marginStart="8dp"
         android:layout_marginLeft="10dp"
-        android:text="Yash_Resume_RB.pdf"
+        android:layout_marginTop="99dp"
+        android:text="Trilok_Resume.pdf"
         android:textColor="#f4dc42"
         android:textSize="18sp" />
 
@@ -37,9 +39,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="110dp"
+        android:layout_marginStart="8dp"
         android:layout_marginLeft="10dp"
-        android:text="Ruchak Vira_Resume_RB.pdf"
+        android:layout_marginTop="140dp"
+        android:text="Madhav_Resume.pdf"
         android:textColor="#f4dc42"
         android:textSize="18sp" />
 

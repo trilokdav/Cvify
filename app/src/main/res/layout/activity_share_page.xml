@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
     tools:context=".SharePage">
 
     <Button
@@ -15,7 +16,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="119dp"
         android:background="@drawable/btn_bg"
-        android:backgroundTint="@android:color/holo_blue_light"
+        android:backgroundTint="#99BEBEBE"
         android:text="Turn On"
         android:textColor="@android:color/black"
         android:textSize="18sp" />
@@ -28,7 +29,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="205dp"
         android:background="@drawable/btn_bg"
-        android:backgroundTint="@android:color/holo_blue_light"
+        android:backgroundTint="#99BEBEBE"
         android:text="Discoverable"
         android:textColor="@android:color/black"
         android:textSize="18sp" />
@@ -37,11 +38,11 @@
         android:id="@+id/btnOFF"
         android:layout_width="118dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/btnOn"
+        android:layout_alignParentEnd="true"
         android:layout_marginEnd="53dp"
         android:background="@drawable/btn_bg"
-        android:backgroundTint="@android:color/holo_blue_light"
+        android:backgroundTint="#99BEBEBE"
         android:text="Turn OFF"
         android:textColor="@android:color/black"
         android:textSize="18sp" />
@@ -51,10 +52,10 @@
         android:layout_width="221dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:layout_marginTop="180dp"
         android:background="@drawable/btn_bg"
         android:backgroundTint="@android:color/holo_blue_light"
         android:text="View Paired Devices"
-        android:layout_marginTop="180dp"
         android:textColor="@android:color/black"
         android:textSize="18sp" />
 
@@ -63,11 +64,11 @@
         android:layout_width="match_parent"
         android:layout_height="211dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:layout_marginTop="400dp"
-        android:textAlignment="center"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/white"
         android:backgroundTint="@android:color/white"
-        android:background="@android:color/white"></ListView>
+        android:textAlignment="center"></ListView>
 
     <TextView
         android:id="@+id/textView"

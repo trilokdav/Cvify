@@ -121,7 +121,7 @@ public class HomePage extends AppCompatActivity {
                 //Create the intent to start another activity
                Intent intent = new Intent(Intent.ACTION_SEND);
                intent.setType("text/plain");
-               String sharebody = "Hey, I have used this ResumeBuilder App! It has 50+ resume templates, divided sections to fill in your details.. You can build your resume in just 5 mins!!\n\n https://app/resumebuilder";
+               String sharebody = "Hey, I have used this ResumeBuilder App! It has 50+ resume templates, divided sections to fill in your details.. You can build your resume in just 5 mins!!";
                String sharesub = "Share ResumeBuilder";
                intent.putExtra(Intent.EXTRA_SUBJECT,sharesub);
                intent.putExtra(Intent.EXTRA_TEXT,sharebody);
@@ -130,22 +130,22 @@ public class HomePage extends AppCompatActivity {
             }
         });
 
-        r1.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-
-                x = event.getX();
-                y = event.getY();
-
-                if(event.getAction()== MotionEvent.ACTION_MOVE) {
-                    tv1.setX(x);
-                    tv1.setY(y);
-                }
-                //Toast.makeText(RateUsPage.this,"Enter your full name (OnFocusListener)",Toast.LENGTH_SHORT).show();
-
-                return true;
-            }
-        });
+//        r1.setOnTouchListener(new View.OnTouchListener() {
+//            @Override
+//            public boolean onTouch(View v, MotionEvent event) {
+//
+//                x = event.getX();
+//                y = event.getY();
+//
+//                if(event.getAction()== MotionEvent.ACTION_MOVE) {
+//                    tv1.setX(x);
+//                    tv1.setY(y);
+//                }
+//                //Toast.makeText(RateUsPage.this,"Enter your full name (OnFocusListener)",Toast.LENGTH_SHORT).show();
+//
+//                return true;
+//            }
+//        });
 
     }
 
