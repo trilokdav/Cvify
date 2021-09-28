@@ -1,4 +1,4 @@
-package com.example.cvify.cvify;
+package com.example.cvify;
 
 import android.content.DialogInterface;
 import android.content.Intent;

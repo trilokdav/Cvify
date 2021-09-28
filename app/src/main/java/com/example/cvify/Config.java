@@ -1,4 +1,4 @@
-package com.example.cvify.cvify;
+package com.example.cvify;
 
 public class Config {
     public static final String EMAIL ="palaksavalia@gmail.com";

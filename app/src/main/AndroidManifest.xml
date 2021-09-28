@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cvify.cvify">
+    package="com.example.cvify">
 
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
@@ -26,7 +26,7 @@
                 android:resource="@xml/provider_paths" />
         </provider>
 
-        <activity android:name="com.example.cvify.cvify.HomePage">
+        <activity android:name="com.example.cvify.HomePage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -34,48 +34,48 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.cvify.cvify.InterviewPage"
-            android:parentActivityName="com.example.cvify.cvify.HomePage" />
+            android:name="com.example.cvify.InterviewPage"
+            android:parentActivityName="com.example.cvify.HomePage" />
         <activity
-            android:name="com.example.cvify.cvify.CreateResumePage"
-            android:parentActivityName="com.example.cvify.cvify.HomePage" />
+            android:name="com.example.cvify.CreateResumePage"
+            android:parentActivityName="com.example.cvify.HomePage" />
         <activity
-            android:name="com.example.cvify.cvify.PersonalInfo"
-            android:parentActivityName="com.example.cvify.cvify.CreateResumePage" />
+            android:name="com.example.cvify.PersonalInfo"
+            android:parentActivityName="com.example.cvify.CreateResumePage" />
         <activity
-            android:name="com.example.cvify.cvify.RateUsPage"
-            android:parentActivityName="com.example.cvify.cvify.HomePage" />
+            android:name="com.example.cvify.RateUsPage"
+            android:parentActivityName="com.example.cvify.HomePage" />
         <activity
-            android:name="com.example.cvify.cvify.TechnicalSkills"
-            android:parentActivityName="com.example.cvify.cvify.CreateResumePage" />
+            android:name="com.example.cvify.TechnicalSkills"
+            android:parentActivityName="com.example.cvify.CreateResumePage" />
         <activity
-            android:name="com.example.cvify.cvify.Objective"
-            android:parentActivityName="com.example.cvify.cvify.CreateResumePage" />
+            android:name="com.example.cvify.Objective"
+            android:parentActivityName="com.example.cvify.CreateResumePage" />
         <activity
-            android:name="com.example.cvify.cvify.SharePage"
-            android:parentActivityName="com.example.cvify.cvify.HomePage" />
+            android:name="com.example.cvify.SharePage"
+            android:parentActivityName="com.example.cvify.HomePage" />
         <activity
-            android:name="com.example.cvify.cvify.Education"
-            android:parentActivityName="com.example.cvify.cvify.CreateResumePage" />
+            android:name="com.example.cvify.Education"
+            android:parentActivityName="com.example.cvify.CreateResumePage" />
         <activity
-            android:name="com.example.cvify.cvify.Interests"
-            android:parentActivityName="com.example.cvify.cvify.CreateResumePage" />
+            android:name="com.example.cvify.Interests"
+            android:parentActivityName="com.example.cvify.CreateResumePage" />
         <activity
-            android:name="com.example.cvify.cvify.Projects"
-            android:parentActivityName="com.example.cvify.cvify.CreateResumePage" />
+            android:name="com.example.cvify.Projects"
+            android:parentActivityName="com.example.cvify.CreateResumePage" />
         <activity
-            android:name="com.example.cvify.cvify.Achievements"
-            android:parentActivityName="com.example.cvify.cvify.CreateResumePage" />
+            android:name="com.example.cvify.Achievements"
+            android:parentActivityName="com.example.cvify.CreateResumePage" />
         <activity
-            android:name="com.example.cvify.cvify.References"
-            android:parentActivityName="com.example.cvify.cvify.CreateResumePage" />
+            android:name="com.example.cvify.References"
+            android:parentActivityName="com.example.cvify.CreateResumePage" />
         <activity
-            android:name="com.example.cvify.cvify.GenerateResumePage"
-            android:parentActivityName="com.example.cvify.cvify.CreateResumePage" />
+            android:name="com.example.cvify.GenerateResumePage"
+            android:parentActivityName="com.example.cvify.CreateResumePage" />
         <activity
-            android:name="com.example.cvify.cvify.DownloadPage"
-            android:parentActivityName="com.example.cvify.cvify.HomePage" />
-        <activity android:name="com.example.cvify.cvify.CVPage"></activity>
+            android:name="com.example.cvify.DownloadPage"
+            android:parentActivityName="com.example.cvify.HomePage" />
+        <activity android:name="com.example.cvify.CVPage"></activity>
     </application>
 
 </manifest>
