@@ -121,7 +121,7 @@ public class HomePage extends AppCompatActivity {
                 //Create the intent to start another activity
                Intent intent = new Intent(Intent.ACTION_SEND);
                intent.setType("text/plain");
-               String sharebody = "Hey, I have used this ResumeBuilder App! It has 50+ resume templates, divided sections to fill in your details.. You can build your resume in just 5 mins!!\n\n https://app/resumebuilder";
+               String sharebody = "Hey, I have used this ResumeBuilder App! It has 50+ resume templates, divided sections to fill in your details.. You can build your resume in just 5 mins!!";
                String sharesub = "Share ResumeBuilder";
                intent.putExtra(Intent.EXTRA_SUBJECT,sharesub);
                intent.putExtra(Intent.EXTRA_TEXT,sharebody);
