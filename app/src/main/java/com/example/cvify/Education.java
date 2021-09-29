@@ -41,7 +41,7 @@ public class Education extends AppCompatActivity {
                 Cursor c=db.rawQuery("SELECT * FROM PersonalDet7 WHERE Name ='"+ PersonalInfo.Username.getText().toString() +"'", null);
                 if(c.moveToFirst()) {
                     db.execSQL("UPDATE PersonalDet7 SET Course ='"+ nameDegree.getText()+"', Institute='"+ institute.getText()+"', Score='"+ score.getText()+"',Yop='"+ yop.getText()+"' WHERE Name ='"+PersonalInfo.Username.getText().toString()+"'");
-                    Toast.makeText(Education.this, "Data saved sucessfully!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(Education.this, "Data saved successfully!", Toast.LENGTH_LONG).show();
                 }
                 else
                 {
