@@ -1,4 +1,4 @@
-package com.example.cvify.cvify;
+package com.example.cvify;
 
 import org.junit.Test;
 

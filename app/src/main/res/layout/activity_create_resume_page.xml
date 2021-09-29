@@ -163,7 +163,7 @@
             android:backgroundTint="#ffffff"
             android:padding="5dp"
             android:text="GENERATE RESUME"
-            android:textColor="#DF8142AE"
+            android:textColor="#DFE14A4A"
             android:textSize="22sp" />
 
 
