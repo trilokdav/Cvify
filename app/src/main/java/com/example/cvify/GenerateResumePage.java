@@ -173,6 +173,7 @@ public class GenerateResumePage extends AppCompatActivity {
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
+
         }
     }
 
